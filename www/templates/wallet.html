@@ -1,0 +1,10 @@
+<ion-view view-title="Wallet">
+  <ion-content>
+  <h1 class="user">{{user.firstName}}'s wallet</h1>
+    <ion-list>
+      <ion-item ng-repeat="receipt in user.wallet" href="#/app/receipt/{{receipt._id}}" ng-show="!receipt.deleted">
+          {{receipt.vendor}} ({{receipt.amount}})
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

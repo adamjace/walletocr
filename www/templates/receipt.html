@@ -1,0 +1,16 @@
+<ion-view view-title="Receipt">
+  <ion-content>
+    <h1>{{receipt.vendor}}</h1>
+    <p>{{receipt.amount}}</p>
+    
+    <form ng-submit="delete()">
+      <div class="list">
+        <label class="item">
+          <input type="hidden" ng-model="receipt._id"></input>
+          <button class="button button-block button-negative" type="submit">Delete</button>
+        </label>
+      </div>
+    </form>
+    
+  </ion-content>
+</ion-view>

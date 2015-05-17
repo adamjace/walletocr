@@ -1,0 +1,192 @@
+/* Empty. Add your own CSS if you like */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, i, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, fieldset, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, button, select, textarea {
+    font-family: 'Roboto';
+    font-weight: 300;
+    xcolor: #7b7b7b;
+}
+
+    a, a:visited {
+        color: #94BA65;
+        text-decoration: none;
+    }
+
+.menu .item-complex .item-content, .menu .item {
+    background-color: transparent;
+    color: #E6F0F4;
+    border: none;
+}
+
+/*
+    ionic color overrides
+    We will be using the caml styles throughout
+    Color palette can be found here - http://www.colourlovers.com/palette/38562/Hands_On
+*/
+
+.tabs-balanced > .tabs, .tabs.tabs-balanced {
+
+    background-color:transparent;
+    color: #fff;
+    background-image: none;
+}
+  
+.tab-item.tab-item-active {
+    font-weight: bold;
+    background-color: #94BA65;
+    border-top:none;
+
+}
+    .tab-item.tab-item-active span {
+        color:#fff;
+    }
+
+.item-stacked-label .input-label, .item-stacked-label .icon {
+    font-size: 12px;
+    color: #94BA65;
+}
+
+.bar.bar-trans {
+   border:none;
+}
+
+[nav-bar-transition="ios"] [nav-bar="active"] .bar, [nav-bar-transition="ios"] [nav-bar="entering"] .bar {
+    background:red;
+}
+
+.bar.bar-stable {
+    border:none;
+}
+
+.bar.bar-stable .title {
+    color:#fff;
+    font-weight:800;
+}
+
+.bar-stable .button.button-clear {
+    color:#FFF;
+}
+
+.back-button-padding {
+    padding: 0 10px;
+}
+
+.bar.bar-calm {
+    background-color: #353432;
+    border-color: #353432;
+    background-image: none;
+}
+
+.button.button-balanced {
+    background-color: #94BA65;
+    border-color: #94BA65;
+    color: #fff;
+}
+
+    .button.button-balanced span, .button.button-balanced i {
+        color: #fff;
+    }
+
+    .button.button-balanced:hover {
+        background-color: #799a51;
+        border-color: #799a51;
+        color: #fff;
+        border-width: 1px;
+    }
+
+.button.button-assertive {
+    border-color: #ba6565;
+    background-color: #ba6565;
+}
+
+.error {
+    padding: 15px;
+    border: 1px solid #ba6565;
+    background-color: #ba6565;
+    color: #ba6565 !important;
+    border-radius: 3px;
+    color: #fff;
+}
+
+    .error p, .error strong, .error i {
+        color: #fff !important;
+    }
+
+        .error p:last-child {
+            margin: 0px;
+        }
+
+.menu {
+    background-color: #353432;
+    /*background-image:url('../img/bg.jpg');
+    background-size:cover;*/
+}
+
+.list a {
+    color: #7b7b7b;
+}
+
+.help {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+
+/* basic styles */
+
+
+
+
+/*body.menu-open .menu {
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}*/
+
+h1 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: #4E4D4A;
+}
+
+.whitey h1, .whitey h2, .whitey h3, .whitey h4 {
+    color: #223344;
+}
+
+.menu h4 {
+    color: #fff;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.strong {
+    font-weight: 900;
+}
+
+/* utilities */
+.mb {
+    margin-bottom: 20px;
+}
+
+.mb2 {
+    margin-bottom: 40px;
+}
+
+.mt2 {
+    margin-top: 40px;
+}
+
+/* splash */
+#splash {background:red;position:absolute;width:100%;height:1000px;left:0;top:0;}

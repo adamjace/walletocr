@@ -1,0 +1,36 @@
+﻿/*@font-face {
+    font-family: "opensans";
+    src: url("../fonts/OpenSans-Bold.ttf") format("opentype");
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/OpenSans-Regular.ttf") format("opentype");
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/OpenSans-Light.ttf") format("opentype");
+    font-weight:100;
+}*/
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Bold.ttf") format("opentype");
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf") format("opentype");
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Light.ttf") format("opentype");
+    font-weight:lighter;
+}
